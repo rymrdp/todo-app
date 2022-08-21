@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.main-body {
+  padding: 10%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.todo-container {
+  background-color: rgb(255, 255, 255);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 61, 184);
+  padding: 5% 2%;
+}
+
+/* button */
+.addbtn {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+/*button*/
+
+input[type="text"] {
+  background: none;
+  border: none;
+  font-size: large;
+  padding: 10px;
+  width: 40em;
+}
+
+.done {
+  color: rgba(0, 0, 0, 0.3) !important;
+  text-decoration: line-through;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 300%;
+  margin-bottom: 2px;
+  letter-spacing: 0.4rem;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: rgb(47, 46, 46);
+  margin-top: 2px;
+}
